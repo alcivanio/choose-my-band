@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="cXs-Xt-9qZ">
+    <dependencies>
+        <deployment version="1280" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--Interstitial-->
+        <scene sceneID="xHw-sX-4wU">
+            <objects>
+                <viewController id="Lyx-zj-cfh" customClass="InterstitialViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pnB-Mc-KrH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" id="fqX-h9-flv">
+                                <rect key="frame" x="16" y="28" width="288" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2vS-3u-bZv">
+                                <rect key="frame" x="16" y="86" width="288" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Load Interstitial Ad"/>
+                                <connections>
+                                    <action selector="loadInterstitalTapped:" destination="Lyx-zj-cfh" eventType="touchUpInside" id="wbf-sg-E4A"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="P9r-ms-7BR">
+                                <rect key="frame" x="16" y="139" width="288" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Show!"/>
+                                <connections>
+                                    <action selector="showInterstitialTapped:" destination="Lyx-zj-cfh" eventType="touchUpInside" id="A9z-Sn-TH3"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" id="rOm-U5-qE2">
+                                <rect key="frame" x="16" y="192" width="288" height="319"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Interstitial" image="TabInterstitial" id="cRs-aR-dph"/>
+                    <connections>
+                        <outlet property="adStatusLabel" destination="fqX-h9-flv" id="1rl-wN-XuA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qy8-hk-L7m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="492" y="727"/>
+        </scene>
+        <!--Medium Rect-->
+        <scene sceneID="SCj-IH-H5g">
+            <objects>
+                <viewController id="RDs-sL-OKZ" customClass="MediumRectViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xPl-Ao-0h5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading an ad..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" id="jIa-4f-XzP">
+                                <rect key="frame" x="16" y="28" width="288" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" id="S6D-DC-n9d">
+                                <rect key="frame" x="0.0" y="100" width="320" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Medium Rect" image="TabMediumRect" id="mun-JE-D9f"/>
+                    <connections>
+                        <outlet property="adStatusLabel" destination="jIa-4f-XzP" id="Pwf-E0-1OW"/>
+                        <outlet property="adViewContainer" destination="S6D-DC-n9d" id="mk3-Ow-Eld"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7pz-Ll-UuV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="854" y="385"/>
+        </scene>
+        <!--Banner-->
+        <scene sceneID="EdB-6E-Ied">
+            <objects>
+                <viewController id="OMo-Hq-eep" customClass="BannerViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QBR-JO-Cw3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading an ad..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" id="mPY-m6-qra">
+                                <rect key="frame" x="16" y="28" width="288" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Banner" image="TabBanner" id="LeD-t9-193"/>
+                    <connections>
+                        <outlet property="adStatusLabel" destination="mPY-m6-qra" id="aoE-yc-8YA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FZK-fb-qpK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="492" y="73"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="xI6-on-JAl">
+            <objects>
+                <tabBarController id="cXs-Xt-9qZ" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="llv-vM-Tc6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="OMo-Hq-eep" kind="relationship" relationship="viewControllers" id="6O0-l3-sUC"/>
+                        <segue destination="RDs-sL-OKZ" kind="relationship" relationship="viewControllers" id="Uok-dA-W75"/>
+                        <segue destination="Lyx-zj-cfh" kind="relationship" relationship="viewControllers" id="9gI-E3-YWy"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8LE-7c-Vwv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="55.466666666666669" y="385.29333333333335"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="TabBanner" width="44" height="44"/>
+        <image name="TabInterstitial" width="44" height="44"/>
+        <image name="TabMediumRect" width="44" height="44"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

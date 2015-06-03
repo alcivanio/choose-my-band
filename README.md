@@ -1,4 +1,4 @@
-# choose-my-band
+#Choose My Band
 
 Choose My Band is an app developed by the team Alcivanio, Bruno Lima, José Lucas. The app is an social network that alows the users to share theirs SoundCloud musics.
 
@@ -6,7 +6,7 @@ Choose My Band is an app developed by the team Alcivanio, Bruno Lima, José Luca
 
 ##Alcivanio
 
-Facebook: fb.com/alcivanio
+Facebook: https://fb.com/alcivanio
 
 LinkedIn: https://br.linkedin.com/in/alcivanio
 

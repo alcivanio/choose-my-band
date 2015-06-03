@@ -5,13 +5,21 @@ Choose My Band is an app developed by the team Alcivanio, Bruno Lima, José Luca
 #Team contacts
 
 ##Alcivanio
+
 Facebook: fb.com/alcivanio
+
 LinkedIn: https://br.linkedin.com/in/alcivanio
 
+
 ##Bruno Lima
+
 Facebook: https://www.facebook.com/brunolimaa13
-Email:brunolimasud@gmail.com
+
+E-mail:brunolimasud@gmail.com
+
 
 ##José Lucas
+
 Facebook: https://www.facebook.com/profile.php?id=100008603018305
+
 E-mail:chagasjoselucas@gmail.com
